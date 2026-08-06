@@ -1,0 +1,13 @@
+{
+  "framework": "tff",
+  "dataset": "cifar10",
+  "num_clients": 6,
+  "num_rounds": 10,
+  "partition": "iid",
+  "seed": 46,
+  "training_type": "federated_learning_fedavg",
+  "final_eval_accuracy": 0.7131,
+  "final_eval_loss": 0.8312894563674926,
+  "saved_at": "2026-07-28T09:12:33.162288+00:00",
+  "model_file": "tff_cifar10_20260728_091232_global_model.keras"
+}

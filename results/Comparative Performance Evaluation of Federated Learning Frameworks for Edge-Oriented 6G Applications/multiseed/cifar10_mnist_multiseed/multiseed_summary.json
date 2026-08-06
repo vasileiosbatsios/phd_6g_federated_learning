@@ -1,0 +1,1210 @@
+{
+  "group_count": 12,
+  "total_runs": 60,
+  "input_paths": [
+    "results\\paper1_multiseed",
+    "results"
+  ],
+  "groups": [
+    {
+      "framework": "fedml",
+      "dataset": "cifar10",
+      "implementation": [
+        "torch_fedavg_reference"
+      ],
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "n_runs": 5,
+      "accuracy_pct": {
+        "mean": 67.982,
+        "std": 0.8388504038265745,
+        "n": 5,
+        "values": [
+          66.67999999999999,
+          67.95,
+          67.85,
+          68.60000000000001,
+          68.83
+        ]
+      },
+      "loss": {
+        "mean": 0.9152255675125123,
+        "std": 0.020256222111236555,
+        "n": 5,
+        "values": [
+          0.9479709896087647,
+          0.9133973385810852,
+          0.9163077909469605,
+          0.9043493594169617,
+          0.8941023590087891
+        ]
+      },
+      "wall_time_min": {
+        "mean": 22.409009878503348,
+        "std": 0.2925673315837266,
+        "n": 5,
+        "values": [
+          22.49570568453346,
+          22.87090350026665,
+          22.271626207566683,
+          22.108272008733305,
+          22.29854199141664
+        ]
+      },
+      "comm_mb": {
+        "mean": 268.36395263671875,
+        "std": 0.0,
+        "n": 5,
+        "values": [
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875
+        ]
+      },
+      "runs": [
+        {
+          "seed": 43,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed43\\fedml_cifar10_seed43_20260727_132038.json",
+          "accuracy_pct": 66.67999999999999,
+          "wall_time_min": 22.49570568453346,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 44,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed44\\fedml_cifar10_seed44_20260727_195407.json",
+          "accuracy_pct": 67.95,
+          "wall_time_min": 22.87090350026665,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 45,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed45\\fedml_cifar10_seed45_20260728_022215.json",
+          "accuracy_pct": 67.85,
+          "wall_time_min": 22.271626207566683,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 46,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed46\\fedml_cifar10_seed46_20260728_093455.json",
+          "accuracy_pct": 68.60000000000001,
+          "wall_time_min": 22.108272008733305,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 42,
+          "source": "C:\\repos\\phd_federated_learning\\results\\fedml_cifar10_seed42_20260725_125446.json",
+          "accuracy_pct": 68.83,
+          "wall_time_min": 22.29854199141664,
+          "comm_mb": 268.36395263671875
+        }
+      ]
+    },
+    {
+      "framework": "fedml",
+      "dataset": "mnist",
+      "implementation": [
+        "torch_fedavg_reference"
+      ],
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "n_runs": 5,
+      "accuracy_pct": {
+        "mean": 99.25999999999999,
+        "std": 0.036055512754642575,
+        "n": 5,
+        "values": [
+          99.22,
+          99.27,
+          99.31,
+          99.27,
+          99.22999999999999
+        ]
+      },
+      "loss": {
+        "mean": 0.02077177130661672,
+        "std": 0.0007884497347851924,
+        "n": 5,
+        "values": [
+          0.020786961114488075,
+          0.020392486804397775,
+          0.02005990342508303,
+          0.02051699763237266,
+          0.022102507556742056
+        ]
+      },
+      "wall_time_min": {
+        "mean": 27.940655334206674,
+        "std": 0.19878187418152304,
+        "n": 5,
+        "values": [
+          28.08304328020022,
+          27.830007069099988,
+          27.81699241151667,
+          28.21685825096659,
+          27.756375659249898
+        ]
+      },
+      "comm_mb": {
+        "mean": 761.4303588867188,
+        "std": 0.0,
+        "n": 5,
+        "values": [
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188
+        ]
+      },
+      "runs": [
+        {
+          "seed": 43,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed43\\fedml_mnist_seed43_20260727_101319.json",
+          "accuracy_pct": 99.22,
+          "wall_time_min": 28.08304328020022,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 44,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed44\\fedml_mnist_seed44_20260727_165052.json",
+          "accuracy_pct": 99.27,
+          "wall_time_min": 27.830007069099988,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 45,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed45\\fedml_mnist_seed45_20260727_221613.json",
+          "accuracy_pct": 99.31,
+          "wall_time_min": 27.81699241151667,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 46,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed46\\fedml_mnist_seed46_20260728_044247.json",
+          "accuracy_pct": 99.27,
+          "wall_time_min": 28.21685825096659,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 42,
+          "source": "C:\\repos\\phd_federated_learning\\results\\fedml_mnist_seed42_20260725_094224.json",
+          "accuracy_pct": 99.22999999999999,
+          "wall_time_min": 27.756375659249898,
+          "comm_mb": 761.4303588867188
+        }
+      ]
+    },
+    {
+      "framework": "flower",
+      "dataset": "cifar10",
+      "implementation": [
+        "native"
+      ],
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "n_runs": 5,
+      "accuracy_pct": {
+        "mean": 68.26599999999999,
+        "std": 0.48767817256875623,
+        "n": 5,
+        "values": [
+          67.61,
+          67.88,
+          68.60000000000001,
+          68.69,
+          68.55
+        ]
+      },
+      "loss": {
+        "mean": 0.911313273525238,
+        "std": 0.012470972622716441,
+        "n": 5,
+        "values": [
+          0.9313901849746704,
+          0.9136173457145691,
+          0.9093582180023193,
+          0.9018996838569641,
+          0.9003009350776673
+        ]
+      },
+      "wall_time_min": {
+        "mean": 17.65265118710994,
+        "std": 0.16501784215642804,
+        "n": 5,
+        "values": [
+          17.55042614478298,
+          17.461094012316668,
+          17.626154554516688,
+          17.74283312451662,
+          17.882748099416737
+        ]
+      },
+      "comm_mb": {
+        "mean": 268.36395263671875,
+        "std": 0.0,
+        "n": 5,
+        "values": [
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875
+        ]
+      },
+      "runs": [
+        {
+          "seed": 43,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed43\\flower_cifar10_seed43_20260727_115549.json",
+          "accuracy_pct": 67.61,
+          "wall_time_min": 17.55042614478298,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 44,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed44\\flower_cifar10_seed44_20260727_183244.json",
+          "accuracy_pct": 67.88,
+          "wall_time_min": 17.461094012316668,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 45,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed45\\flower_cifar10_seed45_20260727_235820.json",
+          "accuracy_pct": 68.60000000000001,
+          "wall_time_min": 17.626154554516688,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 46,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed46\\flower_cifar10_seed46_20260728_062601.json",
+          "accuracy_pct": 68.69,
+          "wall_time_min": 17.74283312451662,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 42,
+          "source": "C:\\repos\\phd_federated_learning\\results\\flower_cifar10_seed42_20260725_112639.json",
+          "accuracy_pct": 68.55,
+          "wall_time_min": 17.882748099416737,
+          "comm_mb": 268.36395263671875
+        }
+      ]
+    },
+    {
+      "framework": "flower",
+      "dataset": "mnist",
+      "implementation": [
+        "native"
+      ],
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "n_runs": 5,
+      "accuracy_pct": {
+        "mean": 99.224,
+        "std": 0.06693280212272387,
+        "n": 5,
+        "values": [
+          99.15,
+          99.22,
+          99.33,
+          99.22999999999999,
+          99.19
+        ]
+      },
+      "loss": {
+        "mean": 0.022590326439593772,
+        "std": 0.0012618336925127383,
+        "n": 5,
+        "values": [
+          0.02231590079574089,
+          0.022968634064715297,
+          0.02121320759288792,
+          0.021914799948665315,
+          0.024539089795959444
+        ]
+      },
+      "wall_time_min": {
+        "mean": 21.848996362479976,
+        "std": 0.13812629725836958,
+        "n": 5,
+        "values": [
+          22.012583125283225,
+          21.783164802933335,
+          21.970329673466647,
+          21.68244591319999,
+          21.79645829751668
+        ]
+      },
+      "comm_mb": {
+        "mean": 761.4303588867188,
+        "std": 0.0,
+        "n": 5,
+        "values": [
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188
+        ]
+      },
+      "runs": [
+        {
+          "seed": 43,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed43\\flower_mnist_seed43_20260727_092049.json",
+          "accuracy_pct": 99.15,
+          "wall_time_min": 22.012583125283225,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 44,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed44\\flower_mnist_seed44_20260727_155842.json",
+          "accuracy_pct": 99.22,
+          "wall_time_min": 21.783164802933335,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 45,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed45\\flower_mnist_seed45_20260727_212415.json",
+          "accuracy_pct": 99.33,
+          "wall_time_min": 21.970329673466647,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 46,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed46\\flower_mnist_seed46_20260728_035021.json",
+          "accuracy_pct": 99.22999999999999,
+          "wall_time_min": 21.68244591319999,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 42,
+          "source": "C:\\repos\\phd_federated_learning\\results\\flower_mnist_seed42_20260725_085012.json",
+          "accuracy_pct": 99.19,
+          "wall_time_min": 21.79645829751668,
+          "comm_mb": 761.4303588867188
+        }
+      ]
+    },
+    {
+      "framework": "nvflare",
+      "dataset": "cifar10",
+      "implementation": [
+        "torch_fedavg_reference"
+      ],
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "n_runs": 5,
+      "accuracy_pct": {
+        "mean": 67.982,
+        "std": 0.8388504038265745,
+        "n": 5,
+        "values": [
+          66.67999999999999,
+          67.95,
+          67.85,
+          68.60000000000001,
+          68.83
+        ]
+      },
+      "loss": {
+        "mean": 0.9152255675125123,
+        "std": 0.020256222111236555,
+        "n": 5,
+        "values": [
+          0.9479709896087647,
+          0.9133973385810852,
+          0.9163077909469605,
+          0.9043493594169617,
+          0.8941023590087891
+        ]
+      },
+      "wall_time_min": {
+        "mean": 22.287650809950065,
+        "std": 0.4095666702020334,
+        "n": 5,
+        "values": [
+          21.84893202233361,
+          22.186729683200003,
+          21.970064913200016,
+          22.720809784833303,
+          22.711717646183388
+        ]
+      },
+      "comm_mb": {
+        "mean": 268.36395263671875,
+        "std": 0.0,
+        "n": 5,
+        "values": [
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875
+        ]
+      },
+      "runs": [
+        {
+          "seed": 43,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed43\\nvflare_cifar10_seed43_20260727_134238.json",
+          "accuracy_pct": 66.67999999999999,
+          "wall_time_min": 21.84893202233361,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 44,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed44\\nvflare_cifar10_seed44_20260727_201627.json",
+          "accuracy_pct": 67.95,
+          "wall_time_min": 22.186729683200003,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 45,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed45\\nvflare_cifar10_seed45_20260728_024423.json",
+          "accuracy_pct": 67.85,
+          "wall_time_min": 21.970064913200016,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 46,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed46\\nvflare_cifar10_seed46_20260728_095748.json",
+          "accuracy_pct": 68.60000000000001,
+          "wall_time_min": 22.720809784833303,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 42,
+          "source": "C:\\repos\\phd_federated_learning\\results\\nvflare_cifar10_seed42_20260725_131738.json",
+          "accuracy_pct": 68.83,
+          "wall_time_min": 22.711717646183388,
+          "comm_mb": 268.36395263671875
+        }
+      ]
+    },
+    {
+      "framework": "nvflare",
+      "dataset": "mnist",
+      "implementation": [
+        "torch_fedavg_reference"
+      ],
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "n_runs": 5,
+      "accuracy_pct": {
+        "mean": 99.25999999999999,
+        "std": 0.036055512754642575,
+        "n": 5,
+        "values": [
+          99.22,
+          99.27,
+          99.31,
+          99.27,
+          99.22999999999999
+        ]
+      },
+      "loss": {
+        "mean": 0.02077177130661672,
+        "std": 0.0007884497347851924,
+        "n": 5,
+        "values": [
+          0.020786961114488075,
+          0.020392486804397775,
+          0.02005990342508303,
+          0.02051699763237266,
+          0.022102507556742056
+        ]
+      },
+      "wall_time_min": {
+        "mean": 28.065776939786712,
+        "std": 0.16413432729262567,
+        "n": 5,
+        "values": [
+          28.262104109950208,
+          27.958142321250005,
+          27.850331991299996,
+          28.089271251050015,
+          28.169035025383344
+        ]
+      },
+      "comm_mb": {
+        "mean": 761.4303588867188,
+        "std": 0.0,
+        "n": 5,
+        "values": [
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188
+        ]
+      },
+      "runs": [
+        {
+          "seed": 43,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed43\\nvflare_mnist_seed43_20260727_104143.json",
+          "accuracy_pct": 99.22,
+          "wall_time_min": 28.262104109950208,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 44,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed44\\nvflare_mnist_seed44_20260727_171858.json",
+          "accuracy_pct": 99.27,
+          "wall_time_min": 27.958142321250005,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 45,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed45\\nvflare_mnist_seed45_20260727_224412.json",
+          "accuracy_pct": 99.31,
+          "wall_time_min": 27.850331991299996,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 46,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed46\\nvflare_mnist_seed46_20260728_051101.json",
+          "accuracy_pct": 99.27,
+          "wall_time_min": 28.089271251050015,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 42,
+          "source": "C:\\repos\\phd_federated_learning\\results\\nvflare_mnist_seed42_20260725_101042.json",
+          "accuracy_pct": 99.22999999999999,
+          "wall_time_min": 28.169035025383344,
+          "comm_mb": 761.4303588867188
+        }
+      ]
+    },
+    {
+      "framework": "openfl",
+      "dataset": "cifar10",
+      "implementation": [
+        "torch_fedavg_reference"
+      ],
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "n_runs": 5,
+      "accuracy_pct": {
+        "mean": 67.982,
+        "std": 0.8388504038265745,
+        "n": 5,
+        "values": [
+          66.67999999999999,
+          67.95,
+          67.85,
+          68.60000000000001,
+          68.83
+        ]
+      },
+      "loss": {
+        "mean": 0.9152255675125123,
+        "std": 0.020256222111236555,
+        "n": 5,
+        "values": [
+          0.9479709896087647,
+          0.9133973385810852,
+          0.9163077909469605,
+          0.9043493594169617,
+          0.8941023590087891
+        ]
+      },
+      "wall_time_min": {
+        "mean": 22.620365893540026,
+        "std": 0.2537516360135631,
+        "n": 5,
+        "values": [
+          22.808234729950104,
+          22.744622505716688,
+          22.17860374026665,
+          22.64475821411664,
+          22.72561027765005
+        ]
+      },
+      "comm_mb": {
+        "mean": 268.36395263671875,
+        "std": 0.0,
+        "n": 5,
+        "values": [
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875
+        ]
+      },
+      "runs": [
+        {
+          "seed": 43,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed43\\openfl_cifar10_seed43_20260727_140534.json",
+          "accuracy_pct": 66.67999999999999,
+          "wall_time_min": 22.808234729950104,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 44,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed44\\openfl_cifar10_seed44_20260727_203920.json",
+          "accuracy_pct": 67.95,
+          "wall_time_min": 22.744622505716688,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 45,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed45\\openfl_cifar10_seed45_20260728_030642.json",
+          "accuracy_pct": 67.85,
+          "wall_time_min": 22.17860374026665,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 46,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed46\\openfl_cifar10_seed46_20260728_102035.json",
+          "accuracy_pct": 68.60000000000001,
+          "wall_time_min": 22.64475821411664,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 42,
+          "source": "C:\\repos\\phd_federated_learning\\results\\openfl_cifar10_seed42_20260725_134030.json",
+          "accuracy_pct": 68.83,
+          "wall_time_min": 22.72561027765005,
+          "comm_mb": 268.36395263671875
+        }
+      ]
+    },
+    {
+      "framework": "openfl",
+      "dataset": "mnist",
+      "implementation": [
+        "torch_fedavg_reference"
+      ],
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "n_runs": 5,
+      "accuracy_pct": {
+        "mean": 99.25999999999999,
+        "std": 0.036055512754642575,
+        "n": 5,
+        "values": [
+          99.22,
+          99.27,
+          99.31,
+          99.27,
+          99.22999999999999
+        ]
+      },
+      "loss": {
+        "mean": 0.02077177130661672,
+        "std": 0.0007884497347851924,
+        "n": 5,
+        "values": [
+          0.020786961114488075,
+          0.020392486804397775,
+          0.02005990342508303,
+          0.02051699763237266,
+          0.022102507556742056
+        ]
+      },
+      "wall_time_min": {
+        "mean": 28.18578922083326,
+        "std": 0.17982777619594728,
+        "n": 5,
+        "values": [
+          27.973670593733065,
+          28.101584553816657,
+          28.11124234003334,
+          28.33289809208327,
+          28.40955052449996
+        ]
+      },
+      "comm_mb": {
+        "mean": 761.4303588867188,
+        "std": 0.0,
+        "n": 5,
+        "values": [
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188
+        ]
+      },
+      "runs": [
+        {
+          "seed": 43,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed43\\openfl_mnist_seed43_20260727_110950.json",
+          "accuracy_pct": 99.22,
+          "wall_time_min": 27.973670593733065,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 44,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed44\\openfl_mnist_seed44_20260727_174712.json",
+          "accuracy_pct": 99.27,
+          "wall_time_min": 28.101584553816657,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 45,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed45\\openfl_mnist_seed45_20260727_231226.json",
+          "accuracy_pct": 99.31,
+          "wall_time_min": 28.11124234003334,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 46,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed46\\openfl_mnist_seed46_20260728_053929.json",
+          "accuracy_pct": 99.27,
+          "wall_time_min": 28.33289809208327,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 42,
+          "source": "C:\\repos\\phd_federated_learning\\results\\openfl_mnist_seed42_20260725_103915.json",
+          "accuracy_pct": 99.22999999999999,
+          "wall_time_min": 28.40955052449996,
+          "comm_mb": 761.4303588867188
+        }
+      ]
+    },
+    {
+      "framework": "pysyft",
+      "dataset": "cifar10",
+      "implementation": [
+        "torch_fedavg_reference"
+      ],
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "n_runs": 5,
+      "accuracy_pct": {
+        "mean": 67.982,
+        "std": 0.8388504038265745,
+        "n": 5,
+        "values": [
+          66.67999999999999,
+          67.95,
+          67.85,
+          68.60000000000001,
+          68.83
+        ]
+      },
+      "loss": {
+        "mean": 0.9152255675125123,
+        "std": 0.020256222111236555,
+        "n": 5,
+        "values": [
+          0.9479709896087647,
+          0.9133973385810852,
+          0.9163077909469605,
+          0.9043493594169617,
+          0.8941023590087891
+        ]
+      },
+      "wall_time_min": {
+        "mean": 22.402225915083342,
+        "std": 0.4624789566330931,
+        "n": 5,
+        "values": [
+          22.60075285811666,
+          22.57114483318334,
+          21.57841804944995,
+          22.679437796666754,
+          22.58137603799999
+        ]
+      },
+      "comm_mb": {
+        "mean": 268.36395263671875,
+        "std": 0.0,
+        "n": 5,
+        "values": [
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875
+        ]
+      },
+      "runs": [
+        {
+          "seed": 43,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed43\\pysyft_cifar10_seed43_20260727_142818.json",
+          "accuracy_pct": 66.67999999999999,
+          "wall_time_min": 22.60075285811666,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 44,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed44\\pysyft_cifar10_seed44_20260727_210202.json",
+          "accuracy_pct": 67.95,
+          "wall_time_min": 22.57114483318334,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 45,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed45\\pysyft_cifar10_seed45_20260728_032824.json",
+          "accuracy_pct": 67.85,
+          "wall_time_min": 21.57841804944995,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 46,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed46\\pysyft_cifar10_seed46_20260728_104324.json",
+          "accuracy_pct": 68.60000000000001,
+          "wall_time_min": 22.679437796666754,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 42,
+          "source": "C:\\repos\\phd_federated_learning\\results\\pysyft_cifar10_seed42_20260725_140313.json",
+          "accuracy_pct": 68.83,
+          "wall_time_min": 22.58137603799999,
+          "comm_mb": 268.36395263671875
+        }
+      ]
+    },
+    {
+      "framework": "pysyft",
+      "dataset": "mnist",
+      "implementation": [
+        "torch_fedavg_reference"
+      ],
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "n_runs": 5,
+      "accuracy_pct": {
+        "mean": 99.25999999999999,
+        "std": 0.036055512754642575,
+        "n": 5,
+        "values": [
+          99.22,
+          99.27,
+          99.31,
+          99.27,
+          99.22999999999999
+        ]
+      },
+      "loss": {
+        "mean": 0.02077177130661672,
+        "std": 0.0007884497347851924,
+        "n": 5,
+        "values": [
+          0.020786961114488075,
+          0.020392486804397775,
+          0.02005990342508303,
+          0.02051699763237266,
+          0.022102507556742056
+        ]
+      },
+      "wall_time_min": {
+        "mean": 28.27666924655,
+        "std": 0.584961462111577,
+        "n": 5,
+        "values": [
+          28.086692818199904,
+          27.74981557165,
+          27.88753141098332,
+          28.447525609900065,
+          29.21178082201671
+        ]
+      },
+      "comm_mb": {
+        "mean": 761.4303588867188,
+        "std": 0.0,
+        "n": 5,
+        "values": [
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188
+        ]
+      },
+      "runs": [
+        {
+          "seed": 43,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed43\\pysyft_mnist_seed43_20260727_113803.json",
+          "accuracy_pct": 99.22,
+          "wall_time_min": 28.086692818199904,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 44,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed44\\pysyft_mnist_seed44_20260727_181505.json",
+          "accuracy_pct": 99.27,
+          "wall_time_min": 27.74981557165,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 45,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed45\\pysyft_mnist_seed45_20260727_234028.json",
+          "accuracy_pct": 99.31,
+          "wall_time_min": 27.88753141098332,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 46,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed46\\pysyft_mnist_seed46_20260728_060804.json",
+          "accuracy_pct": 99.27,
+          "wall_time_min": 28.447525609900065,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 42,
+          "source": "C:\\repos\\phd_federated_learning\\results\\pysyft_mnist_seed42_20260725_110836.json",
+          "accuracy_pct": 99.22999999999999,
+          "wall_time_min": 29.21178082201671,
+          "comm_mb": 761.4303588867188
+        }
+      ]
+    },
+    {
+      "framework": "tff",
+      "dataset": "cifar10",
+      "implementation": [
+        "native"
+      ],
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "n_runs": 5,
+      "accuracy_pct": {
+        "mean": 71.162,
+        "std": 0.2320991167583381,
+        "n": 5,
+        "values": [
+          70.75,
+          71.24000000000001,
+          71.27,
+          71.31,
+          71.24000000000001
+        ]
+      },
+      "loss": {
+        "mean": 0.8395405238342285,
+        "std": 0.006782802894578471,
+        "n": 5,
+        "values": [
+          0.8486735249519348,
+          0.8426370288848877,
+          0.8348098171234131,
+          0.8312894563674926,
+          0.8402927918434143
+        ]
+      },
+      "wall_time_min": {
+        "mean": 94.56477375824332,
+        "std": 47.736168733117246,
+        "n": 5,
+        "values": [
+          61.85120632976662,
+          58.060428343116655,
+          121.20803921829999,
+          166.33010552725003,
+          65.3740893727833
+        ]
+      },
+      "comm_mb": {
+        "mean": 268.36395263671875,
+        "std": 0.0,
+        "n": 5,
+        "values": [
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875,
+          268.36395263671875
+        ]
+      },
+      "runs": [
+        {
+          "seed": 43,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed43\\tff_cifar10_seed43_20260727_125752.json",
+          "accuracy_pct": 70.75,
+          "wall_time_min": 61.85120632976662,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 44,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed44\\tff_cifar10_seed44_20260727_193059.json",
+          "accuracy_pct": 71.24000000000001,
+          "wall_time_min": 58.060428343116655,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 45,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed45\\tff_cifar10_seed45_20260728_015944.json",
+          "accuracy_pct": 71.27,
+          "wall_time_min": 121.20803921829999,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 46,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\cifar10\\seed46\\tff_cifar10_seed46_20260728_091233.json",
+          "accuracy_pct": 71.31,
+          "wall_time_min": 166.33010552725003,
+          "comm_mb": 268.36395263671875
+        },
+        {
+          "seed": 42,
+          "source": "C:\\repos\\phd_federated_learning\\results\\tff_cifar10_seed42_20260725_123212.json",
+          "accuracy_pct": 71.24000000000001,
+          "wall_time_min": 65.3740893727833,
+          "comm_mb": 268.36395263671875
+        }
+      ]
+    },
+    {
+      "framework": "tff",
+      "dataset": "mnist",
+      "implementation": [
+        "native"
+      ],
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "n_runs": 5,
+      "accuracy_pct": {
+        "mean": 99.292,
+        "std": 0.05540758070877938,
+        "n": 5,
+        "values": [
+          99.29,
+          99.36,
+          99.26,
+          99.22,
+          99.33
+        ]
+      },
+      "loss": {
+        "mean": 0.02025317319402515,
+        "std": 0.0013845660657729713,
+        "n": 5,
+        "values": [
+          0.01983133762259531,
+          0.018712213166765287,
+          0.02182011078679934,
+          0.021587311796253925,
+          0.019314892597711877
+        ]
+      },
+      "wall_time_min": {
+        "mean": 23.920952433396643,
+        "std": 0.12130520311635544,
+        "n": 5,
+        "values": [
+          24.042609132816626,
+          23.917822562883334,
+          23.77402409628333,
+          23.83013318576668,
+          24.040173189233247
+        ]
+      },
+      "comm_mb": {
+        "mean": 761.4303588867188,
+        "std": 0.0,
+        "n": 5,
+        "values": [
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188,
+          761.4303588867188
+        ]
+      },
+      "runs": [
+        {
+          "seed": 43,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed43\\tff_mnist_seed43_20260727_094505.json",
+          "accuracy_pct": 99.29,
+          "wall_time_min": 24.042609132816626,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 44,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed44\\tff_mnist_seed44_20260727_162250.json",
+          "accuracy_pct": 99.36,
+          "wall_time_min": 23.917822562883334,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 45,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed45\\tff_mnist_seed45_20260727_214814.json",
+          "accuracy_pct": 99.26,
+          "wall_time_min": 23.77402409628333,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 46,
+          "source": "C:\\repos\\phd_federated_learning\\results\\paper1_multiseed\\mnist\\seed46\\tff_mnist_seed46_20260728_041424.json",
+          "accuracy_pct": 99.22,
+          "wall_time_min": 23.83013318576668,
+          "comm_mb": 761.4303588867188
+        },
+        {
+          "seed": 42,
+          "source": "C:\\repos\\phd_federated_learning\\results\\tff_mnist_seed42_20260725_091429.json",
+          "accuracy_pct": 99.33,
+          "wall_time_min": 24.040173189233247,
+          "comm_mb": 761.4303588867188
+        }
+      ]
+    }
+  ]
+}
